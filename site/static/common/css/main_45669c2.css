@@ -1,0 +1,337 @@
+/* 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+h4{word-spacing: 10px;}
+a,a:hover,a:link,a:visited,a:active{text-decoration:none;  }
+
+ul,li{
+ margin:0px;
+ padding:0px;
+}
+.nav>li{
+ display:inline;
+ list-style:none;
+ list-style-position:outside;
+ text-align:center;
+ font-weight:bold;
+ float:left;
+}
+
+
+/* 重置列表元素 */
+ul, ol { list-style: none; }
+
+abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
+border-bottom: 1px dotted;
+cursor: help;
+}
+
+q:before, q:after { content: ''; }
+
+/* 重置表单元素 */
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: none; } /* img 搭车：让链接里的 img 无边框 */
+/* 注：optgroup 无法扶正 */
+button, input, select, textarea {
+    font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
+}
+
+/* 重置表格元素 */
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/* 重置 hr */
+hr {
+    border: none;
+    height: 1px;
+}
+
+
+body{
+    color:#fff;
+    min-width: 1024px;
+    font-family: "Microsoft YaHei",微软雅黑;
+}
+#mask{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height:100%;
+    background-color: rgba(11,11,11,0.8);
+    z-index: 99;
+}
+#mask div{
+    position: absolute;
+    width:100%;
+    top: 200px;
+
+}
+#mask>div>img{
+    width:350px;
+    margin-left:40%;
+    margin-right:auto;
+}
+.fixright{
+    position: fixed;
+    top:270px;
+    width:40px;
+    height: 320px;
+    z-index: 99;
+    right:0px;
+    background-color: rgba(0,0,0,0.5);
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+.qr-code{
+    position: absolute;
+    top:150px;
+    right:2px;
+    width:34px;
+    height:34px;
+    z-index: 999;
+    background:transparent url(//127.0.0.1:3901/static/introduce/image/allPiece_1c63ad7.png) no-repeat scroll 21% 2.8%;
+    cursor: pointer;
+
+}
+.qrshrink{
+    -webkit-animation:shrink 2s;
+    -moz-animation: shrink 2s;
+    animation:shrink 2s;
+    -ms-animation:shrink 2s;
+    -o-animation: shrink 2s;
+}
+.qrillustrate{
+    top:190px;
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    vertical-align: middle;
+    width:16px;
+    right:10px;
+    line-height: 18px;
+}
+.ill2{
+top:250px;
+}
+.app{
+    position: absolute;
+    font-size: 10px;
+    top:230px;
+    width:40px;
+    text-align: center;
+}
+
+.fixheader{
+    position: fixed;
+    background-color: #eeeeee;
+    top:0;
+    height:78px;
+    width:100%;
+    z-index: 9;
+    color:#514e4e;
+}
+.headyea{
+    position: relative;
+    float:left;
+    margin-left:13%;
+    height:36px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+.headyea img{
+    height:100%;
+}
+.headtitle{
+    position: relative;
+    float:left;
+    width:120px;
+    margin-left: 16px;
+    margin-top: 24px;
+}
+.yeatitle{
+    width:100%;
+}
+.titleaddress{
+
+}
+.headernav{
+    position: absolute;
+    float:left;
+    margin-left: 60%;
+    margin-top:42px;
+    min-width: 400px;
+}
+.headernav a{
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    width:110px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    color:#514e4e;
+}
+.headernav a li{
+    width:100%;
+    height: 100%;
+}
+.headernav a .chosed{
+    border-bottom:5px #ea3f42 solid;
+}
+#fp-nav{
+    top:350px;
+}
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    width: 11px;
+    height: 11px;
+}
+#fp-nav ul li {
+    margin-top: 10px;
+}
+#fp-nav.right {
+    right: 6px;
+}
+
+@-webkit-keyframes shrink{
+    0%{
+        -webkit-transform:translate(0px);
+    }
+    35%{
+        -webkit-transform:translate(-10px);
+    }
+    70%{
+       -webkit-transform:translate(0px);
+    }
+    77%{
+        -webkit-transform:translate(-5px);
+    }
+    84%{
+       -webkit-transform:translate(0px);
+    }
+    91%{
+       -webkit-transform:translate(-5px);
+    }
+    98%{
+       -webkit-transform:translate(0px);
+    }
+    100%{
+       -webkit-transform:translate(0px);
+    }
+}
+@-moz-keyframes shrink{
+     0%{
+        -moz-transform:translate(0px);
+    }
+    35%{
+        -moz-transform:translate(-10px);
+    }
+    70%{
+       -moz-transform:translate(0px);
+    }
+    77%{
+        -moz-transform:translate(-5px);
+    }
+    84%{
+       -moz-transform:translate(0px);
+    }
+    91%{
+       -moz-transform:translate(-5px);
+    }
+    98%{
+       -moz-transform:translate(0px);
+    }
+    100%{
+       -moz-transform:translate(0px);
+    }
+}
+@-o-keyframes shrink{
+     0%{
+        -o-transform:translate(0px);
+    }
+    35%{
+        -o-transform:translate(-10px);
+    }
+    70%{
+       -o-transform:translate(0px);
+    }
+    77%{
+        -o-transform:translate(-5px);
+    }
+    84%{
+       -o-transform:translate(0px);
+    }
+    91%{
+       -o-transform:translate(-5px);
+    }
+    98%{
+       -o-transform:translate(0px);
+    }
+    100%{
+       -o-transform:translate(0px);
+    }
+}
+@-ms-keyframes shrink{
+     0%{
+        -ms-transform:translate(0px);
+    }
+    35%{
+        -ms-transform:translate(-10px);
+    }
+    70%{
+       -ms-transform:translate(0px);
+    }
+    77%{
+        -ms-transform:translate(-5px);
+    }
+    84%{
+       -ms-transform:translate(0px);
+    }
+    91%{
+       -ms-transform:translate(-5px);
+    }
+    98%{
+       -ms-transform:translate(0px);
+    }
+    100%{
+       -ms-transform:translate(0px);
+    }
+}
+@keyframes shrink{
+     0%{
+        transform:translate(0px);
+    }
+    35%{
+        transform:translate(-10px);
+    }
+    70%{
+       transform:translate(0px);
+    }
+    77%{
+        transform:translate(-5px);
+    }
+    84%{
+       transform:translate(0px);
+    }
+    91%{
+       transform:translate(-5px);
+    }
+    98%{
+       transform:translate(0px);
+    }
+    100%{
+       transform:translate(0px);
+    }
+}
+@media only screen and (max-width: 1280px){
+.headernav{
+    margin-left: 500px;
+}

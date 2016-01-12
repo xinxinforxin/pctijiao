@@ -1,0 +1,83 @@
+{
+    "res": {
+        "common/static/css/bootstrap.css": {
+            "uri": "//127.0.0.1:3901/static/common/css/bootstrap_b423e3a.css",
+            "type": "css"
+        },
+        "common/static/css/jquery.fullPage.css": {
+            "uri": "//127.0.0.1:3901/static/common/css/jquery.fullPage_3799f50.css",
+            "type": "css"
+        },
+        "common/static/css/main.css": {
+            "uri": "//127.0.0.1:3901/static/common/css/main_056a2a3.css",
+            "type": "css"
+        },
+        "common/static/index.css": {
+            "uri": "//127.0.0.1:3901/static/common/index_d41d8cd.css",
+            "type": "css"
+        },
+        "common/static/index.js": {
+            "uri": "//127.0.0.1:3901/static/common/index_d41d8cd.js",
+            "type": "js",
+            "deps": [
+                "common/static/index.css"
+            ]
+        },
+        "common/static/js/jquery-1.10.1.min.js": {
+            "uri": "//127.0.0.1:3901/static/common/js/jquery-1.10.1.min_33d8513.js",
+            "type": "js"
+        },
+        "common/static/js/jquery.fullPage.min.js": {
+            "uri": "//127.0.0.1:3901/static/common/js/jquery.fullPage.min_edb44ce.js",
+            "type": "js"
+        },
+        "error/page/404.ejs": {
+            "uri": "/views/error/404.ejs",
+            "type": "ejs"
+        },
+        "error/page/500.ejs": {
+            "uri": "/views/error/500.ejs",
+            "type": "ejs"
+        },
+        "introduce/page/index.ejs": {
+            "uri": "/views/introduce/index.ejs",
+            "type": "ejs"
+        },
+        "introduce/page/pcAbout.ejs": {
+            "uri": "/views/introduce/pcAbout.ejs",
+            "type": "ejs"
+        },
+        "introduce/page/pcJoin.ejs": {
+            "uri": "/views/introduce/pcJoin.ejs",
+            "type": "ejs"
+        },
+        "introduce/page/pcSecurity.ejs": {
+            "uri": "/views/introduce/pcSecurity.ejs",
+            "type": "ejs"
+        },
+        "introduce/static/index.css": {
+            "uri": "//127.0.0.1:3901/static/introduce/index_f35f9d9.css",
+            "type": "css"
+        },
+        "introduce/static/index.js": {
+            "uri": "//127.0.0.1:3901/static/introduce/index_d82fa14.js",
+            "type": "js",
+            "deps": [
+                "introduce/static/index.css"
+            ]
+        },
+        "introduce/static/pcAbout.css": {
+            "uri": "//127.0.0.1:3901/static/introduce/pcAbout_6338a01.css",
+            "type": "css"
+        },
+        "introduce/static/pcJoin.css": {
+            "uri": "//127.0.0.1:3901/static/introduce/pcJoin_267d18d.css",
+            "type": "css"
+        },
+        "introduce/static/pcSecurity.css": {
+            "uri": "//127.0.0.1:3901/static/introduce/pcSecurity_4ea4309.css",
+            "type": "css"
+        }
+    },
+    "pkg": {}
+}
