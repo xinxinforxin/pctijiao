@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5{
     vertical-align: middel;
     margin: 15px 5px;
 }
-a,a:hover,a:link,a:visited,a:active{text-decoration:none;  }
+a,a:hover,a:link,a:visited,a:active{text-decoration:none; cursor: pointer; }
 
 ul,li{
  margin:0px;
@@ -143,6 +143,7 @@ top:250px;
     width:100%;
     z-index: 9;
     color:#514e4e;
+    z-index: 9999999;
 }
 .headyea{
     position: relative;

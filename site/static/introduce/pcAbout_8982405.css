@@ -1,0 +1,86 @@
+body{
+    overflow: auto;
+}
+.intropage{
+    background-color: #fff;
+    width:100%;
+    padding-top: 130px;
+    height: 800px;
+
+}
+.bannerimg{
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    color:#000;
+}
+.bannerimg img{
+    width: 100%;
+}
+.article{
+    line-height: 25px;
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+     color:#444444;
+}
+.font1{
+    font-size: 30px;
+    display: block;
+    line-height: 55px;
+    font-family: Microsoft YaHei;
+}
+.pics{
+    margin-top: 100px;
+    padding: 5px;
+    width:100%;
+}
+.pics>div,.pictop>div,.picbottom>div{
+    position: relative;
+    float: left;
+
+}
+.picleft{
+    width:67.5%;
+    height:auto;
+    min-width: 0px;
+}
+.picright{
+    width:30.5%;
+}
+.picleft>.pictop{
+    width:100%;
+    min-width: 0px;
+}
+.picleft>.picbottom{
+      width:100%;
+    min-width: 0px;
+}
+.img1{
+    width:33.6%;
+
+}
+.img2{
+    width: 66.4%;
+}
+.img3{
+    width: 66.8%;
+}
+.img4{
+    width: 33.2%;
+}
+.img5{
+    width:100%;
+}
+.pics img{
+    width: 98%;
+    padding: 1%;
+}
+
+#space{
+    height: 100px;
+    border: 1px solid #fff;
+    width:100%;
+    margin-top: 100px;
+}

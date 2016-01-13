@@ -9,7 +9,7 @@
             "type": "css"
         },
         "common/static/css/main.css": {
-            "uri": "//127.0.0.1:3901/static/common/css/main_056a2a3.css",
+            "uri": "//127.0.0.1:3901/static/common/css/main_d4544f8.css",
             "type": "css"
         },
         "common/static/index.css": {
@@ -56,18 +56,18 @@
             "type": "ejs"
         },
         "introduce/static/index.css": {
-            "uri": "//127.0.0.1:3901/static/introduce/index_f35f9d9.css",
+            "uri": "//127.0.0.1:3901/static/introduce/index_8669db2.css",
             "type": "css"
         },
         "introduce/static/index.js": {
-            "uri": "//127.0.0.1:3901/static/introduce/index_d82fa14.js",
+            "uri": "//127.0.0.1:3901/static/introduce/index_b984292.js",
             "type": "js",
             "deps": [
                 "introduce/static/index.css"
             ]
         },
         "introduce/static/pcAbout.css": {
-            "uri": "//127.0.0.1:3901/static/introduce/pcAbout_6338a01.css",
+            "uri": "//127.0.0.1:3901/static/introduce/pcAbout_d4d2171.css",
             "type": "css"
         },
         "introduce/static/pcJoin.css": {
@@ -75,7 +75,7 @@
             "type": "css"
         },
         "introduce/static/pcSecurity.css": {
-            "uri": "//127.0.0.1:3901/static/introduce/pcSecurity_4ea4309.css",
+            "uri": "//127.0.0.1:3901/static/introduce/pcSecurity_c321c03.css",
             "type": "css"
         }
     },

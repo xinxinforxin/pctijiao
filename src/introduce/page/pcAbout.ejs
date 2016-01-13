@@ -8,15 +8,26 @@
 
 </head>
 <body>
-    <!--inline[../../common/page/nav.ejs]-->
+    <header class="fixheader">
+    <div class="headyea">
+        <img src="/introduce/static/image/logo.png" class="yealogo" alt="yea">
+    </div>
+    <div class="headernav">
+        <ul class="nav">
+            <a href="/"><li>首页</li></a>
+            <a href="/about"><li  class="chosed">关于我们</li></a>
+             <a href="/security"><li>安全保障</li></a>
+        </ul>
+    </div>
+</header>
     <section class="intropage">
         <div class="bannerimg"><img src="../static/image/banner2.png"alt=""></div>
-        <article class="article1 article ">
+        <article class=" article ">
             深圳前海椰子金融信息服务有限公司旗下主要产品为“椰子理财”（<a href="http://www.yeamoney.cn" style="color:#eeeee">www.yeamoney.cn</a>）,椰子理财是创新型互联网金融平台，采用P2B的商业模式，实现个人投资者和优质中小型企业融资需求的全面整合。为广大的投资者打造安全、便捷、专业、可靠的互联网金融理财产品。</br>
             同时也为优质企业客户提供快速、高效、低成本的融资服务。椰子理财依靠强大的实力，为投资人提供安全、可信、透明、稳健的金融理财服务。椰子金融的高管团队全部拥有资深的金融与互联网背景，分别来自于恒生电子、平安银行、知名会计所，大型互联网公司。
         </article>
-        <article class="article2 article">
-            <span class="font1">我们有着共同目标</span>
+        <article class=" article">
+            <h1 style="text-align:left;">我们有着共同目标</h1>
             相较于只注重盈利的平台，我们更注重质量，更注重平台能为社会带来什么。所有的员工都有共同的理念－－让所有人“懂投资，会理财”，我们旨在让所有人能够意识到理财的重要性，让所有人认识到不同的理财方式，让所有人懂得如何投资，让所有人拥有更美好的生活。我们一直秉持着一个信念，那就是让所有人的生活因为理财而发生一点点的变化，让生活更加充满希望，让生活更美好，让所有人更懂得享受生活。
         </article>
     </section>
@@ -37,32 +48,6 @@
             </div>
             </div>
     </section>
-   <!--inline[../../common/page/foot.ejs]-->
-    <script>
-    $('.headyea').click(function(){
-            window.location.href='/';
-        });
-        $('.nav>li').click(function(){
-            switch($(this).index()){
-                case 0:window.location.href='/';
-                break;
-                case 1:window.location.href='about';
-                break;
-                case 2:window.location.href='security';
-                break;
-                default:
-                break;
-            }
-            //alert($(this).index());
-        });
-        $('.qr-code').click(function(){
-            $('#mask').show();
-        });
-        $('#mask').click(function(){
-            $('#mask').hide();
-        });
-        
-    </script>
 </body>
 </html>
 
