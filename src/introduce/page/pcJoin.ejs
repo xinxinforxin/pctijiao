@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <!--inline[../../common/page/head.ejs]-->
     <title>椰子理财</title>
-
-
+    <link rel="stylesheet" type="text/css" href="../static/pcJoin.css?_inline">
 </head>
 <body>
-    <header class="fixheader">
+     <header class="fixheader">
         <div class="headyea">
-            <img src="../static/image/yealogo.png" class="yealogo" alt="yea">
-        </div>
-        <div class="headtitle">
-            <img src="../static/image/yeatitle.png" class="yeatitle" alt="">
-            <div class="titleaddress">www.yeamoney.cn</div>
+            <img src="/introduce/static/image/logo.png" class="yealogo" alt="yea">
         </div>
         <div class="headernav">
             <ul class="nav">
-                <li>首页</li>
-                <li>关于我们</li>
-                <li>安全保障</li>
+                <a href="/"><li>首页</li></a>
+                <a href="/about"><li>关于我们</li></a>
+                 <a href="/security"><li>安全保障</li></a>
             </ul>
         </div>
     </header>
     <section class="fifpic">
-        <img src="../static/image/fif1.png"  alt="">
-        <img src="../static/image/fif2.png"  alt="">
-        <img src="../static/image/fif3.png"  alt="">
-        <img src="../static/image/fif4.png"  alt="">
-        <img src="../static/image/fif5.png"  alt="">
-        <img src="../static/image/fif6.png"  alt="">
-        <img src="../static/image/fif7.png"  alt="">
-        <img src="../static/image/fif8.png"  alt="">
-        <img src="../static/image/fif9.png"  alt="">
-        <img src="../static/image/fif10.png"  alt="">
-        <img src="../static/image/fif11.png"  alt="">
-        <img src="../static/image/fif12.png"  alt="">
-        <img src="../static/image/fif13.png"  alt="">
-        <img src="../static/image/fif14.png"  alt="">
-        <img src="../static/image/fif15.png"  alt="">
-
-    </section>
+        <div class="rowpic">
+            <img src="../static/image/fif1.png"  alt="">
+            <img src="../static/image/fif2.png"  alt="">
+            <img src="../static/image/fif3.png"  alt="">
+            <img src="../static/image/fif4.png"  alt="">
+            <img src="../static/image/fif5.png"  alt="">
+        </div>
+        <div class="rowpic">
+            <img src="../static/image/fif6.png"  alt="">
+            <img src="../static/image/fif7.png"  alt="">
+            <img src="../static/image/fif8.png"  alt="">
+            <img src="../static/image/fif9.png"  alt="">
+            <img src="../static/image/fif10.png"  alt="">
+        </div>
+        <div class="rowpic">
+            <img src="../static/image/fif11.png"  alt="">
+            <img src="../static/image/fif12.png"  alt="">
+            <img src="../static/image/fif13.png"  alt="">
+            <img src="../static/image/fif14.png"  alt="">
+            <img src="../static/image/fif15.png"  alt="">
+        </div>
+        </section>
     <section class="jobs">
         <div class="occupation">
             <ul>
@@ -99,27 +99,6 @@
     </section>
     <script type="text/javascript" src="../../common/static/js/jquery-1.10.1.min.js"></script>
     <script>
-        $('.nav>li').click(function(){
-            switch($(this).index()){
-                case 0:window.location.href='/';
-                break;
-                case 1:window.location.href='about';
-                break;
-                case 2:window.location.href='security';
-                break;
-                default:
-                break;
-            }
-        });
-        $('.headyea').click(function(){
-            window.location.href='/';
-        });
-        $('.qr-code').click(function(){
-            $('#mask').show();
-        });
-        $('#mask').click(function(){
-            $('#mask').hide();
-        });
         var postIndex = 0;
         $('.occupation>ul>li').click(function(){
             $('.post>div').hide();

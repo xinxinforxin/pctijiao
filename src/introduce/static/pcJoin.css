@@ -1,14 +1,19 @@
+
 .fifpic{
     margin-top: 104px;
-    width:1120px;
     margin-left: auto;
     margin-right: auto;
+
 }
-.fifpic img{
-    width: 200px;
-    height: 150px;
-    margin-right: 18px;
-    margin-bottom: 16px;
+.rowpic{
+    display: inline-flex;
+    justify-content:center;
+    width:100%;
+}
+.rowpic img{
+   width:250px;
+   height: 180px;
+   margin-right: 5px;
 }
 .jobs{
     margin-top:60px;

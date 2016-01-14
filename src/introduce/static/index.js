@@ -206,11 +206,11 @@ $(function(){
             var tiptop4 = 0;
             var timer1 = setInterval(function(){
                 tiptop1 += 1;
+                $('.rect1 font').html(tiptop1+'%');
                 if(tiptop1>11)
                 {
                     clearInterval(timer1);
                 }
-            $('.rect1>.s3Num').html(tiptop1+'%');
             },80);
             var timer2 = setInterval(function(){
                 tiptop2 += 0.5;
@@ -218,7 +218,7 @@ $(function(){
                 {
                     clearInterval(timer2);
                 }
-            $('.rect2>.s3Num').html(tiptop2+'%');
+            $('.rect2 font').html(tiptop2+'%');
             },80);
             var timer3 = setInterval(function(){
                 tiptop3 += 0.5;
@@ -226,7 +226,7 @@ $(function(){
                 {
                     clearInterval(timer3);
                 }
-            $('.rect3>.s3Num').html(tiptop3.toFixed(1)+'%');
+            $('.rect3 font').html(tiptop3.toFixed(1)+'%');
             },80);
             var timer4 = setInterval(function(){
                 tiptop4 += 1;
@@ -234,7 +234,7 @@ $(function(){
                 {
                     clearInterval(timer4);
                 }
-            $('.rect4>.s3Num').html(tiptop4+'%');
+            $('.rect4 font').html(tiptop4+'%');
             },80);
         }
         $('.fixright>.qr-code').click(function(){
